@@ -1,8 +1,8 @@
 <h1 align="center">DawnStation compatibility list</h1>
 
 <p align="center">
-  <img alt="Games tested" src="https://img.shields.io/badge/games%20tested-42-6f42c1">
-  <img alt="Discs covered" src="https://img.shields.io/badge/discs%20covered-166-f0883e">
+  <img alt="Games tested" src="https://img.shields.io/badge/games%20tested-43-6f42c1">
+  <img alt="Discs covered" src="https://img.shields.io/badge/discs%20covered-167-f0883e">
   <img alt="PS4 homebrew" src="https://img.shields.io/badge/PS4-homebrew-003791">
 </p>
 
@@ -24,7 +24,7 @@ those emulators. This is every game tested on DawnStation so far: how far it get
 does about it. The fixes and settings are built in and apply by themselves when the game starts: there's nothing to
 install or set.
 
-**42 games tested:** 19 Playable, 9 Ingame, 1 Loadable, 13 not rated yet. **124 more discs** (other regions, demos)
+**43 games tested:** 32 Playable, 10 Ingame, 1 Loadable. **124 more discs** (other regions, demos)
 get the same fixes or settings, untested.
 
 ## Statuses
@@ -36,7 +36,6 @@ get the same fixes or settings, untested.
 | **Intro** | Pictures or menus only |
 | **Loadable** | Boots to a black or loading screen only |
 | **Nothing** | Doesn't boot |
-| **Not rated** | Fixed or set up, not played far enough yet to rate |
 
 **Set:** what DawnStation sets for the game by itself (the core, and the emulator options the fix needs).
 Cores are named as in a game's Options: Core 0 (Bully), Core 1 (Jak X), and so on.
@@ -46,7 +45,7 @@ Cores are named as in a game's Options: Core 0 (Bully), Core 1 (Jak X), and so o
 
 | # | Game | Disc tested | Status | Notes | Same fix, untested |
 |---|---|---|---|---|---|
-| 1 | Ratchet & Clank | SCUS-97199 | Not rated | Froze about 20 s in: fixed (the VU0 handshake, as in Ratchet & Clank 2). **Set:** Core 1 (Jak X), VU1 sync off, psdevwiki Lua script | |
+| 1 | Ratchet & Clank | SCUS-97199 | Playable | Froze about 20 s in: fixed (the VU0 handshake, as in Ratchet & Clank 2). **Set:** Core 1 (Jak X), VU1 sync off, psdevwiki Lua script | |
 | 2 | Ratchet & Clank 2: Going Commando | SCUS-97268 | Ingame | Plays with DawnStation's VU0 fix; 30-42 fps in places. **Set:** Core 1 (Jak X), CPU speed 125%, VU1 sync off, psdevwiki Lua script | |
 | 3 | Ratchet & Clank: Up Your Arsenal | SCUS-97353 | Playable | Black screen after the first cutscene: fixed (VU0 handshake). **Set:** Core 1 (Jak X), VU1 sync off, psdevwiki Lua script | SCUS-97518, SCES-52456, SCAJ-20109, SCPS-15084, SCPS-19309 |
 | 4 | Ratchet: Deadlocked | SCUS-97465 | Ingame | Freeze after the main menu: fixed (VU0 handshake); runs at about 74% speed. **Set:** Core 1 (Jak X), VU1 sync off, psdevwiki Lua script | SCES-53285, SCAJ-20157, SCPS-15099, SCPS-15100, SCPS-19321, SCPS-19328 |
@@ -63,7 +62,7 @@ Cores are named as in a game's Options: Core 0 (Bully), Core 1 (Jak X), and so o
 | 15 | Grand Theft Auto: San Andreas | SLUS-20946 | Playable | Widescreen and no ghosting (patches from PCSX2's patch collection) | SLES-52541, SLES-52927 |
 | 16 | Grand Theft Auto: San Andreas (Japan) | SLPM-65984 | Playable | Ghosting off and no stray polygons (the USA disc's emulator settings) | SLPM-55092, SLPM-55292, SLPM-66788 |
 | 17 | Tenchu: Wrath of Heaven | SLUS-20397 | Ingame | Hang about 30 s in: fixed; coloured specks on plants remain. **Set:** Core 1 (Jak X), VU1 sync off | |
-| 18 | Tenchu: Fatal Shadows | SLUS-21129 | Not rated | Long trails over everything: fixed (Jvn9207's fix); disc loads and the grass fixed too. **Set:** Core 1 (Jak X) | SLES-53016 |
+| 18 | Tenchu: Fatal Shadows | SLUS-21129 | Playable | Long trails over everything: fixed (Jvn9207's fix); disc loads and the grass fixed too. **Set:** Core 1 (Jak X) | SLES-53016 |
 | 19 | Nickelodeon Barnyard | SLUS-21277 | Ingame | Hang in Chapter One: fixed; wrong tiles on loading screens, slow cutscenes. **Set:** Mipmaps on, Texture uploads: Hash | |
 | 20 | Spider-Man 2 | SLUS-20776 | Ingame | Open: thin lines in cutscenes at 2x, wrong shadows. **Set:** Core 1 (Jak X) | |
 | 21 | Spider-Man 3 | SLUS-21552 | Ingame | Open: hitches, and a freeze after the doors open | |
@@ -76,18 +75,19 @@ Cores are named as in a game's Options: Core 0 (Bully), Core 1 (Jak X), and so o
 | 28 | Shadow Hearts: Covenant | SLUS-21041 (disc 1) | Playable | Two black screens (at start-up, and where play starts): fixed | SLUS-21044 (disc 2), SLES-82030, SLES-82031, SLPS-25317 / 25318, SLPS-25334 / 25335, SLPS-73214 / 73215, SLPM-60214, SLPM-60219, SLPM-60226 |
 | 29 | SSX 3 | SLUS-20772 | Playable | Black screen when a race loads: fixed (as psdevwiki's Lua script) | SLES-51697, SLKA-25118, SLKA-25200, SLKA-90502, SLPM-55077, SLPM-65449, SLPM-65793 |
 | 30 | Tomb Raider: The Angel of Darkness | SLUS-20467 | Playable | Black screen, and the missing pause text and menu graphics: fixed. A video can show a bad picture | SLES-51227, SCAJ-20044, SLPS-25246 |
-| 31 | Mortal Kombat: Shaolin Monks | SLUS-21087 | Not rated | psdevwiki's fix, without its cheats | |
-| 32 | Scarface: The World Is Yours | SLUS-21111 | Not rated | Black screen after the PS2 logo and frame-rate dips in play: fixed; a steady 60 fps. **Set:** Core 1 (Jak X) | SLUS-21492, SLES-54182, SLES-54183, SLES-54184, SLES-54271, SLES-54534 |
-| 33 | Dawn of Mana | SLUS-21574 | Not rated | iHaiDeeZ's config: Red-Tv's 60 FPS patch (cutscenes at 30; a switch in the game's Options), 16:9 and Sony's own emulator settings; not played on DawnStation yet. **Set:** Core 1 (Jak X) | SLPM-66576, SCAJ-20184 (the emulator settings only) |
-| 34 | Tekken 5 | SCES-53202 | Not rated | Shaking menus: fixed, on the Jak X cores | SLUS-21059, SLPS-25510, SLPS-73223, SCAJ-20125, SCAJ-20126, SCAJ-20199 |
-| 35 | Guitar Hero III: Legends of Rock | SLUS-21672 | Not rated | Black screen, an emulator crash 30-110 s later, striped text, the floor as static and the guitar as noise: fixed. **Set:** Core 1 (Jak X), VU1 sync on | SLES-54962, SLES-54974 |
-| 36 | Devil May Cry | SLES-50358 | Not rated | Dante's and Trish's faces in cutscenes (nose, mouth and chin missing): fixed | SLUS-20216, SLPM-65038, SLPM-66502, SLPM-74230, SLPM-67502 (Korea), SLED-50359, SLPM-61008, SLPM-61010, SLPM-65023, SLPM-65025 |
-| 37 | Evil Dead: Regeneration | SLUS-21048 | Not rated | Wrong sound effects on Core 1 (Jak X), the shotgun and others: Core 8 is used instead, as psdevwiki's list advises. **Set:** Core 8 (Bully v2) | SLES-53457 (the same core) |
+| 31 | Mortal Kombat: Shaolin Monks | SLUS-21087 | Playable | psdevwiki's fix, without its cheats | |
+| 32 | Scarface: The World Is Yours | SLUS-21111 | Playable | Black screen after the PS2 logo and frame-rate dips in play: fixed; a steady 60 fps. **Set:** Core 1 (Jak X) | SLUS-21492, SLES-54182, SLES-54183, SLES-54184, SLES-54271, SLES-54534 |
+| 33 | Dawn of Mana | SLUS-21574 | Playable | iHaiDeeZ's config: Red-Tv's 60 FPS patch (cutscenes at 30; a switch in the game's Options), 16:9 and Sony's own emulator settings. **Set:** Core 1 (Jak X) | SLPM-66576, SCAJ-20184 (the emulator settings only) |
+| 34 | Tekken 5 | SCES-53202 | Playable | Shaking menus: fixed, on the Jak X cores | SLUS-21059, SLPS-25510, SLPS-73223, SCAJ-20125, SCAJ-20126, SCAJ-20199 |
+| 35 | Guitar Hero III: Legends of Rock | SLUS-21672 | Playable | Black screen, an emulator crash 30-110 s later, striped text, the floor as static and the guitar as noise: fixed. **Set:** Core 1 (Jak X), VU1 sync on | SLES-54962, SLES-54974 |
+| 36 | Devil May Cry | SLES-50358 | Playable | Dante's and Trish's faces in cutscenes (nose, mouth and chin missing): fixed | SLUS-20216, SLPM-65038, SLPM-66502, SLPM-74230, SLPM-67502 (Korea), SLED-50359, SLPM-61008, SLPM-61010, SLPM-65023, SLPM-65025 |
+| 37 | Evil Dead: Regeneration | SLUS-21048 | Playable | Wrong sound effects on Core 1 (Jak X), the shotgun and others: Core 8 is used instead, as psdevwiki's list advises. **Set:** Core 8 (Bully v2) | SLES-53457 (the same core) |
 | 38 | FIFA Street 2 | SLUS-21369 | Playable | Scrambled flags on Select Team: fixed; matches at about 37-39 fps. iHaiDeeZ's own Lua fix (in Vika2364's collection) fixes it too. **Set:** Core 41 (Resident Evil Code: Veronica X), Texture uploads: Hash | SLES-53796, SLES-53797, SLED-53953 (the same settings) |
-| 39 | Mercenaries: Playground of Destruction | SLUS-20932 | Not rated | Slow motion and stuttering voices: fixed. The frame rate drops (down to 10 fps) while the PS4 can't keep up, so the game keeps its speed (Options: Adaptive frame rate); full speed in play on a PS4, 30 fps on a PS4 Pro | SLES-52588, SLES-52589, SLES-52590, SLES-53008, SLED-52979, SLUS-29137 |
-| 40 | Battlefield 2: Modern Combat | SLUS-21026 | Not rated | 3-second freezes every 5 s in play: fixed (tested on a PS4 Pro). **Set:** Core 62 (Jak II v2), VU1 jump cache: Per program | SLES-53729, SLES-53730, SLED-53731, SLUS-29117, SLUS-29152, SLUS-29172 (the same settings) |
-| 41 | Pac-Man World 2 | SLUS-20224 | Not rated | Black screen, then a crash at start on Core 42 and 16 more cores: fixed since 1.52. Shaky menus: Vika2364's config, with its framebuffer fix made to run (*next update*, not checked yet). **Set:** vk2364 config on (*next update*) | |
-| 42 | Burnout 3: Takedown | SLUS-21050 | Not rated | *Next update:* the freeze on the first race's loading screen, the strip down the left (the bloom effect) and a loud buzz over all the sound, at any volume, are fixed. What the game sends through its distortion effect isn't heard on these emulators. **Set:** Core 1 (Jak X) | SLES-52584, SLES-52585 |
+| 39 | Mercenaries: Playground of Destruction | SLUS-20932 | Playable | Slow motion and stuttering voices: fixed. The frame rate drops (down to 10 fps) while the PS4 can't keep up, so the game keeps its speed (Options: Adaptive frame rate); full speed in play on a PS4, 30 fps on a PS4 Pro | SLES-52588, SLES-52589, SLES-52590, SLES-53008, SLED-52979, SLUS-29137 |
+| 40 | Battlefield 2: Modern Combat | SLUS-21026 | Playable | 3-second freezes every 5 s in play: fixed (tested on a PS4 Pro). **Set:** Core 62 (Jak II v2), VU1 jump cache: Per program | SLES-53729, SLES-53730, SLED-53731, SLUS-29117, SLUS-29152, SLUS-29172 (the same settings) |
+| 41 | Pac-Man World 2 | SLUS-20224 | Playable | Black screen, then a crash at start on Core 42 and 16 more cores: fixed since 1.52. Shaky menus: Vika2364's config, with its framebuffer fix made to run (*next update*). **Set:** vk2364 config on (*next update*) | |
+| 42 | Burnout 3: Takedown | SLUS-21050 | Playable | *Next update:* the freeze on the first race's loading screen, the strip down the left (the bloom effect) and a loud buzz over all the sound, at any volume, are fixed. What the game sends through its distortion effect isn't heard on these emulators. **Set:** Core 1 (Jak X) | SLES-52584, SLES-52585 |
+| 43 | Area 51 | SLUS-20595 | Ingame | Open: slow spots (about 83-92% speed in places), and now and then the picture turns one flat colour for a moment (the gun scanner's picture-in-picture) | |
 
 ## Good to know
 
