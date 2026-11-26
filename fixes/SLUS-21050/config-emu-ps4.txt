@@ -1,0 +1,11 @@
+# Burnout 3: Takedown (SLUS-21050): DawnStation's fix (2026-11-26, Lab 00.29) for the loud buzz over the sound
+# (crackling, also at volume 0 and in the pause menu). The game's IOP module B3ROUTE.IRX (its "distortion router")
+# reads core 0's wet output area from SPU2 RAM, has the EE process it and writes the result into core 1's
+# sound-data input (MEMIN, byte 0x4800), which core 1 plays at full volume. Sony's core never writes the SPU2's
+# output areas, so the router sends the EE silence and gets back a fixed 6 kHz pattern, played all the time.
+# Core 1's input goes to the PS4's BGM port instead, and that port is muted; core 0's input (on that port by
+# default) stays in the main mix. What core 0 sends to the effect isn't heard on this core either way. The user:
+# "Noise gone". With SLUS-21050_config.lua (the bloom strip). Jak X cores; cores without these options skip them.
+--spu2-c0-memin-to-bgm=0
+--spu2-c1-memin-to-bgm=1
+--mute-audio=bgm

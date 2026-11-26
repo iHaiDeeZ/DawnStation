@@ -1,0 +1,17 @@
+# The Simpsons Game (Europe) [SLES-54906]: DawnStation (2026-11-08), for the newer core (the older core crashed the app
+# in the EA/Fox logos).
+# The characters: their polygons stretched across the screen (Homer's skin in long streaks), as Crash Twinsanity's did
+# on this core. Float clamping on VU0, VU1, COP2 and the FPU (a PS2 has no infinities) and VU0/VU1 const-prop off drew
+# them right (the user: "they look right"); which of the six does it wasn't narrowed down.
+--vu0-no-clamping=0
+--vu1-no-clamping=0
+--cop2-no-clamping=0
+--fpu-no-clamping=0
+--vu0-const-prop=0
+--vu1-const-prop=0
+# The cutscenes ran at ~20 fps with broken sound: the EE spent ~60% of its time re-protecting code pages the game
+# writes to (each write: a fault, the page's compiled blocks dropped, three mprotects off and three on). The core's
+# default threshold is 0, never giving up on a page; with 20, a page that keeps faulting is left unprotected and its
+# code is compiled the core's other way. Sony's own Jak & Daxter config uses 20 against FMV and audio stutter.
+# The user: "working now".
+--ee-jit-pagefault-threshold=20

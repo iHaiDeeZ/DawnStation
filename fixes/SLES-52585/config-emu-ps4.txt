@@ -1,0 +1,6 @@
+# Burnout 3: Takedown (SLES-52585, Europe): Burnout 3's sound fix (fixes/SLUS-21050/config-emu-ps4.txt, where the
+# reasons are), UNTESTED on this disc (2026-11-26): core 1's sound-data input, where the game's distortion
+# router plays a 6 kHz buzz on Sony's core, goes to the muted BGM port.
+--spu2-c0-memin-to-bgm=0
+--spu2-c1-memin-to-bgm=1
+--mute-audio=bgm

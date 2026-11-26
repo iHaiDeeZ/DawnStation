@@ -12,6 +12,7 @@
   <a href="#statuses">Statuses</a> ·
   <a href="#the-list">The list</a> ·
   <a href="#good-to-know">Good to know</a> ·
+  <a href="#game-fixes">Game fixes</a> ·
   <a href="#thanks">Thanks</a>
 </p>
 
@@ -99,6 +100,24 @@ Cores are named as in a game's Options: Core 0 (Bully), Core 1 (Jak X), and so o
   **Recommended options** at the top of that page puts them all back.
 - **Not on the list:** not tested yet, which doesn't mean it doesn't work.
 - **Two consoles:** games were tested on a PS4 and a PS4 Pro; where they differ, the notes say so.
+
+## Game fixes
+
+DawnStation users don't need these: they're built in. The [fixes](fixes) folder has them for anyone who wants to read
+them or try them elsewhere, one folder per disc: the tested disc's, and the copies the game's other regions and demos
+get (untested). They're in the PS2 Classics format, so they can be tried in a PS2 Classics package made for the game.
+They were made on DawnStation's cores, though: the list's **Set:** column names the core a game needs, and the notes at
+the top of each file say what was wrong and what the fix does.
+
+| File | What it is |
+|---|---|
+| `<serial>_config.lua` | The game's Lua script: the fix itself |
+| `<serial>_cli.conf`, `config-emu-ps4.txt` | Emulator options |
+| `vu0_sync_budget`, `vu1_round`, `vu1_matrix`, `vif1_finish_now` | Switches for fixes built into DawnStation itself; they do nothing anywhere else |
+
+Not in the folder: fixes that are other people's work, used as they are. God of War, Crash Bandicoot: The Wrath of
+Cortex and Mortal Kombat: Shaolin Monks use psdevwiki's; Grand Theft Auto: San Andreas uses PCSX2's patches and
+settings from Vika2364's collection.
 
 ## Thanks
 

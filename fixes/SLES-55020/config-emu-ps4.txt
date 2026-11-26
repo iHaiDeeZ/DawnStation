@@ -1,0 +1,10 @@
+# Die Simpsons - Das Spiel (Germany) [SLES-55020]: DawnStation, the European disc's emulator options (fixes/SLES-54906), for the
+# newer core: float clamping and VU const-prop off against characters' polygons stretched across the
+# screen, and the EE page-fault threshold against ~20 fps cutscenes with broken sound. Untested on this disc.
+--vu0-no-clamping=0
+--vu1-no-clamping=0
+--cop2-no-clamping=0
+--fpu-no-clamping=0
+--vu0-const-prop=0
+--vu1-const-prop=0
+--ee-jit-pagefault-threshold=20

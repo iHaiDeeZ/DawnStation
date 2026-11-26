@@ -1,0 +1,6 @@
+# Mercenaries: Playground of Destruction (SLES-52590): DawnStation's fix, the USA disc's (fixes/SLUS-20932; untested here), with SLES-52590_config.lua
+# (the frame rate it lowers while the GPU falls behind). --gs-adaptive-frameskip=1 turns on the core's count of
+# frames waiting for the GS thread, which the Lua reads (gsObj.GetFramesInQueue); here it skipped no frames.
+# --gs-optimize-30fps=1 flips only the game's new frames. Jak X cores; cores without them skip them.
+--gs-adaptive-frameskip=1
+--gs-optimize-30fps=1
