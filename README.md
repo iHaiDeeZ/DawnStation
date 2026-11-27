@@ -1,8 +1,8 @@
 <h1 align="center">DawnStation compatibility list</h1>
 
 <p align="center">
-  <img alt="Games tested" src="https://img.shields.io/badge/games%20tested-51-6f42c1">
-  <img alt="Discs covered" src="https://img.shields.io/badge/discs%20covered-186-f0883e">
+  <img alt="Games tested" src="https://img.shields.io/badge/games%20tested-52-6f42c1">
+  <img alt="Discs covered" src="https://img.shields.io/badge/discs%20covered-187-f0883e">
   <img alt="PS4 homebrew" src="https://img.shields.io/badge/PS4-homebrew-003791">
 </p>
 
@@ -25,7 +25,7 @@ those emulators. This is every game tested on DawnStation so far: how far it get
 does about it. The fixes and settings are built in and apply by themselves when the game starts: there's nothing to
 install or set.
 
-**51 games tested:** 40 Playable, 10 Ingame, 1 Loadable. **135 more discs** (other regions, demos)
+**52 games tested:** 41 Playable, 10 Ingame, 1 Loadable. **135 more discs** (other regions, demos)
 get the same fixes or settings, untested.
 
 ## Statuses
@@ -97,6 +97,7 @@ Cores are named as in a game's Options: Core 0 (Bully), Core 1 (Jak X), and so o
 | 49 | Silent Hill 4: The Room | SLUS-20873 | Playable | Runs well without a fix. Tested on a PS4 Pro | |
 | 50 | Dragon Ball Z: Budokai Tenkaichi 3 | SLUS-21678 | Playable | Runs well without a fix. Tested on a PS4 Pro | |
 | 51 | Rumble Racing | SLUS-20174 | Playable | *Next update:* the crash right at start is fixed: the game uses Core 60 instead, as Vika2364's config does. **Set:** Core 60 (ADK Damashii). Tested on a PS4 Pro | SLES-50120, SLES-50121 (the same core) |
+| 52 | Evil Dead: A Fistful of Boomstick | SLUS-20403 | Playable | Runs well without a fix. Tested on a PS4 Pro | |
 
 ## Good to know
 
