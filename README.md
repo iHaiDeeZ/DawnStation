@@ -1,8 +1,8 @@
 <h1 align="center">DawnStation compatibility list</h1>
 
 <p align="center">
-  <img alt="Games tested" src="https://img.shields.io/badge/games%20tested-45-6f42c1">
-  <img alt="Discs covered" src="https://img.shields.io/badge/discs%20covered-175-f0883e">
+  <img alt="Games tested" src="https://img.shields.io/badge/games%20tested-46-6f42c1">
+  <img alt="Discs covered" src="https://img.shields.io/badge/discs%20covered-179-f0883e">
   <img alt="PS4 homebrew" src="https://img.shields.io/badge/PS4-homebrew-003791">
 </p>
 
@@ -25,7 +25,7 @@ those emulators. This is every game tested on DawnStation so far: how far it get
 does about it. The fixes and settings are built in and apply by themselves when the game starts: there's nothing to
 install or set.
 
-**45 games tested:** 34 Playable, 10 Ingame, 1 Loadable. **130 more discs** (other regions, demos)
+**46 games tested:** 35 Playable, 10 Ingame, 1 Loadable. **133 more discs** (other regions, demos)
 get the same fixes or settings, untested.
 
 ## Statuses
@@ -91,6 +91,7 @@ Cores are named as in a game's Options: Core 0 (Bully), Core 1 (Jak X), and so o
 | 43 | Area 51 | SLUS-20595 | Ingame | Open: slow spots (about 83-92% speed in places), and now and then the picture turns one flat colour for a moment (the gun scanner's picture-in-picture) | |
 | 44 | Klonoa 2: Lunatea's Veil | SLUS-20151 | Playable | *Next update:* items in the wrong places are fixed: in the rainy cave the two winged green spheres sat on a ledge by the waterfall instead of up in the branches. Tested on a PS4 Pro | SCES-50354, SLPS-25033, SLUS-28004, SLPM-60138 |
 | 45 | Sonic Gems Collection | SLES-53350 | Playable | *Next update:* Sonic the Fighters' grey and black characters and stages are fixed, and it runs at full speed (60 fps, from about 17): DawnStation makes its 3D palettes itself. The collection's other games run well. Tested on a PS4 Pro | SLPM-66074, SLKA-25308 |
+| 46 | Guitar Hero II | SLUS-21447 | Playable | *Next update:* the black screen at start is fixed, and songs run at full speed (60 fps, from about 24) with the right sound and no freeze. Tested on a PS4 Pro | SLES-54442, SLED-54509, SLUS-29198 |
 
 ## Good to know
 
@@ -115,7 +116,7 @@ the top of each file say what was wrong and what the fix does.
 |---|---|
 | `<serial>_config.lua` | The game's Lua script: the fix itself |
 | `<serial>_cli.conf`, `config-emu-ps4.txt` | Emulator options |
-| `vu0_sync_budget`, `vu1_round`, `vu1_matrix`, `vif1_finish_now` | Switches for fixes built into DawnStation itself; they do nothing anywhere else |
+| `vu0_sync_budget`, `vu1_round`, `vu1_matrix`, `vif1_finish_now`, `vif1_mfifo_wait`, `gs_pal_cpu`, `gs_clut_wait` | Switches for fixes built into DawnStation itself; they do nothing anywhere else |
 
 Not in the folder: fixes that are other people's work, used as they are. God of War, Crash Bandicoot: The Wrath of
 Cortex and Mortal Kombat: Shaolin Monks use psdevwiki's; Grand Theft Auto: San Andreas uses PCSX2's patches and
