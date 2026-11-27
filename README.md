@@ -1,8 +1,8 @@
 <h1 align="center">DawnStation compatibility list</h1>
 
 <p align="center">
-  <img alt="Games tested" src="https://img.shields.io/badge/games%20tested-47-6f42c1">
-  <img alt="Discs covered" src="https://img.shields.io/badge/discs%20covered-180-f0883e">
+  <img alt="Games tested" src="https://img.shields.io/badge/games%20tested-48-6f42c1">
+  <img alt="Discs covered" src="https://img.shields.io/badge/discs%20covered-181-f0883e">
   <img alt="PS4 homebrew" src="https://img.shields.io/badge/PS4-homebrew-003791">
 </p>
 
@@ -25,7 +25,7 @@ those emulators. This is every game tested on DawnStation so far: how far it get
 does about it. The fixes and settings are built in and apply by themselves when the game starts: there's nothing to
 install or set.
 
-**47 games tested:** 36 Playable, 10 Ingame, 1 Loadable. **133 more discs** (other regions, demos)
+**48 games tested:** 37 Playable, 10 Ingame, 1 Loadable. **133 more discs** (other regions, demos)
 get the same fixes or settings, untested.
 
 ## Statuses
@@ -93,6 +93,7 @@ Cores are named as in a game's Options: Core 0 (Bully), Core 1 (Jak X), and so o
 | 45 | Sonic Gems Collection | SLES-53350 | Playable | *Next update:* Sonic the Fighters' grey and black characters and stages are fixed, and it runs at full speed (60 fps, from about 17): DawnStation makes its 3D palettes itself. The collection's other games run well. Tested on a PS4 Pro | SLPM-66074, SLKA-25308 |
 | 46 | Guitar Hero II | SLUS-21447 | Playable | *Next update:* the black screen at start is fixed, and songs run at full speed (60 fps, from about 24) with the right sound and no freeze. Tested on a PS4 Pro | SLES-54442, SLED-54509, SLUS-29198 |
 | 47 | Silent Hill 2 | SLUS-20228 | Playable | *Next update:* the picture squashed into the top half of the screen and the intro movie shown twice are fixed: psdevwiki's 480p script, now on by default for the Greatest Hits disc (v2.01). The first release (same serial) isn't covered. Tested on a PS4 Pro | |
+| 48 | Silent Hill 3 | SLUS-20622 | Playable | *Next update:* the picture in the top half of the screen, with a glitchy mess below it, is fixed. Tested on a PS4 Pro | |
 
 ## Good to know
 
