@@ -25,7 +25,7 @@ those emulators. This is every game tested on DawnStation so far: how far it get
 does about it. The fixes and settings are built in and apply by themselves when the game starts: there's nothing to
 install or set.
 
-**45 games tested:** 33 Playable, 11 Ingame, 1 Loadable. **130 more discs** (other regions, demos)
+**45 games tested:** 34 Playable, 10 Ingame, 1 Loadable. **130 more discs** (other regions, demos)
 get the same fixes or settings, untested.
 
 ## Statuses
@@ -90,7 +90,7 @@ Cores are named as in a game's Options: Core 0 (Bully), Core 1 (Jak X), and so o
 | 42 | Burnout 3: Takedown | SLUS-21050 | Playable | *Next update:* the freeze on the first race's loading screen, the strip down the left (the bloom effect) and a loud buzz over all the sound, at any volume, are fixed. What the game sends through its distortion effect isn't heard on these emulators. **Set:** Core 1 (Jak X) | SLES-52584, SLES-52585 |
 | 43 | Area 51 | SLUS-20595 | Ingame | Open: slow spots (about 83-92% speed in places), and now and then the picture turns one flat colour for a moment (the gun scanner's picture-in-picture) | |
 | 44 | Klonoa 2: Lunatea's Veil | SLUS-20151 | Playable | *Next update:* items in the wrong places are fixed: in the rainy cave the two winged green spheres sat on a ledge by the waterfall instead of up in the branches. Tested on a PS4 Pro | SCES-50354, SLPS-25033, SLUS-28004, SLPM-60138 |
-| 45 | Sonic Gems Collection | SLES-53350 | Ingame | *Next update:* Sonic the Fighters' grey and black characters and stages are fixed. Sonic the Fighters is still slow (about 17 fps); the collection's other games run well. Tested on a PS4 Pro | SLPM-66074, SLKA-25308 |
+| 45 | Sonic Gems Collection | SLES-53350 | Playable | *Next update:* Sonic the Fighters' grey and black characters and stages are fixed, and it runs at full speed (60 fps, from about 17): DawnStation makes its 3D palettes itself. The collection's other games run well. Tested on a PS4 Pro | SLPM-66074, SLKA-25308 |
 
 ## Good to know
 
