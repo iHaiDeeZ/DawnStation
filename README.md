@@ -1,8 +1,8 @@
 <h1 align="center">DawnStation compatibility list</h1>
 
 <p align="center">
-  <img alt="Games tested" src="https://img.shields.io/badge/games%20tested-53-6f42c1">
-  <img alt="Discs covered" src="https://img.shields.io/badge/discs%20covered-189-f0883e">
+  <img alt="Games tested" src="https://img.shields.io/badge/games%20tested-54-6f42c1">
+  <img alt="Discs covered" src="https://img.shields.io/badge/discs%20covered-190-f0883e">
   <img alt="PS4 homebrew" src="https://img.shields.io/badge/PS4-homebrew-003791">
 </p>
 
@@ -25,7 +25,7 @@ those emulators. This is every game tested on DawnStation so far: how far it get
 does about it. The fixes and settings are built in and apply by themselves when the game starts: there's nothing to
 install or set.
 
-**53 games tested:** 42 Playable, 10 Ingame, 1 Loadable. **136 more discs** (other regions, demos)
+**54 games tested:** 43 Playable, 10 Ingame, 1 Loadable. **136 more discs** (other regions, demos)
 get the same fixes or settings, untested.
 
 ## Statuses
@@ -99,6 +99,7 @@ Cores are named as in a game's Options: Core 0 (Bully), Core 1 (Jak X), and so o
 | 51 | Rumble Racing | SLUS-20174 | Playable | *Next update:* the crash right at start is fixed: the game uses Core 60 instead, as Vika2364's config does. **Set:** Core 60 (ADK Damashii). Tested on a PS4 Pro | SLES-50120, SLES-50121 (the same core) |
 | 52 | Evil Dead: A Fistful of Boomstick | SLUS-20403 | Playable | Runs well without a fix. Tested on a PS4 Pro | |
 | 53 | Neopets: The Darkest Faerie | SCUS-97367 | Playable | *Next update:* the crash right after the intro, and the freeze after it, are fixed: the game starts the PS2's vector unit in a way the emulator mishandled. **Set:** VU1 sync on. Tested on a PS4 Pro | SCUS-97469 (demo, the same fix) |
+| 54 | Resident Evil Outbreak File #2 | SLUS-20984 | Playable | Runs well without a fix. Tested on a PS4 Pro | |
 
 ## Good to know
 
